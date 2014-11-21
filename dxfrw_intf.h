@@ -43,7 +43,7 @@ public:
     virtual void addImage(const DRW_Image *data) {}
     virtual void linkImage(const DRW_ImageDef *data) {}
     virtual void addComment(const char* comment) {}
-
+    virtual void setBlock(const int handle) {}
     virtual void writeHeader(DRW_Header& data) {}
     virtual void writeBlocks() {}
     virtual void writeBlockRecords() {}
